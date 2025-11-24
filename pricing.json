@@ -24866,5 +24866,115 @@
     "max_input_tokens": 200000,
     "max_output_tokens": 128000,
     "max_tokens": 128000
+  },
+  "ollama/kimi-k2-thinking": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 6E-7,
+    "output_cost_per_token": 0.0000025,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 262144,
+    "max_tokens": 262144,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/kimi-k2:1t": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 6E-7,
+    "output_cost_per_token": 0.0000025,
+    "max_input_tokens": 131072,
+    "max_output_tokens": 16384,
+    "max_tokens": 131072,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/minimax-m2": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 3E-7,
+    "output_cost_per_token": 0.0000012,
+    "max_input_tokens": 196608,
+    "max_output_tokens": 196608,
+    "max_tokens": 196608,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/qwen3-vl:235b-instruct": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 7E-7,
+    "output_cost_per_token": 0.0000028,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 32768,
+    "max_tokens": 262144,
+    "supports_vision": true,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/qwen3-vl:235b": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 7E-7,
+    "output_cost_per_token": 0.0000028,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 32768,
+    "max_tokens": 262144,
+    "supports_vision": true
+  },
+  "ollama/deepseek-v3.1:671b": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 0.00000135,
+    "output_cost_per_token": 0.0000054,
+    "max_input_tokens": 163840,
+    "max_output_tokens": 32768,
+    "max_tokens": 163840,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/gpt-oss:120b": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 1.5E-7,
+    "output_cost_per_token": 6E-7,
+    "max_input_tokens": 131072,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/gpt-oss:20b": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 5E-8,
+    "output_cost_per_token": 2E-7,
+    "max_input_tokens": 131072,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/glm-4.6": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 4E-7,
+    "output_cost_per_token": 0.00000175,
+    "max_input_tokens": 202800,
+    "max_output_tokens": 131000,
+    "max_tokens": 202800,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "cerebras/qwen-3-235b-a22b-instruct-2507": {
+    "provider": "cerebras",
+    "mode": "chat",
+    "input_cost_per_token": 2.5E-7,
+    "output_cost_per_token": 0.000001,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 16384,
+    "max_tokens": 16384,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
   }
 }

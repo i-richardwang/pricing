@@ -24925,8 +24925,8 @@
   "ollama/deepseek-v3.1:671b": {
     "provider": "ollama",
     "mode": "chat",
-    "input_cost_per_token": 0.00000135,
-    "output_cost_per_token": 0.0000054,
+    "input_cost_per_token": 5.6E-7,
+    "output_cost_per_token": 0.00000168,
     "max_input_tokens": 163840,
     "max_output_tokens": 32768,
     "max_tokens": 163840,
@@ -24958,8 +24958,8 @@
   "ollama/glm-4.6": {
     "provider": "ollama",
     "mode": "chat",
-    "input_cost_per_token": 4E-7,
-    "output_cost_per_token": 0.00000175,
+    "input_cost_per_token": 5E-7,
+    "output_cost_per_token": 0.0000019,
     "max_input_tokens": 202800,
     "max_output_tokens": 131000,
     "max_tokens": 202800,
@@ -24974,6 +24974,17 @@
     "max_input_tokens": 262144,
     "max_output_tokens": 16384,
     "max_tokens": 16384,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
+  },
+  "ollama/qwen3-coder:480b": {
+    "provider": "ollama",
+    "mode": "chat",
+    "input_cost_per_token": 4.5E-7,
+    "output_cost_per_token": 0.0000018,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 65536,
+    "max_tokens": 262144,
     "supports_function_calling": true,
     "supports_tool_choice": true
   }

@@ -229,5 +229,28 @@
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true
+  },
+    "cloud/qwen3-next:80b": {
+    "provider": "cloud",
+    "mode": "chat",
+    "input_cost_per_token": 1.5E-7,
+    "output_cost_per_token": 1.5E-6,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 32768,
+    "max_tokens": 32768,
+    "supports_function_calling": true,
+    "supports_tool_choice": true,
+    "supports_reasoning": true
+  },
+  "cloud/devstral-2:123b": {
+    "provider": "cloud",
+    "mode": "chat",
+    "input_cost_per_token": 1.5E-7,
+    "output_cost_per_token": 6E-7,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 32768,
+    "max_tokens": 32768,
+    "supports_function_calling": true,
+    "supports_tool_choice": true
   }
 }

@@ -262,7 +262,6 @@
     "max_output_tokens": 65535,
     "max_tokens": 65535,
     "supports_function_calling": true,
-    "supports_parallel_function_calling": false,
     "supports_reasoning": true,
     "supports_response_schema": true,
     "supports_tool_choice": true,
@@ -277,10 +276,21 @@
     "max_output_tokens": 262144,
     "max_tokens": 262144,
     "supports_function_calling": true,
-    "supports_parallel_function_calling": false,
     "supports_reasoning": true,
     "supports_response_schema": true,
-    "supports_tool_choice": true,
-    "supports_vision": false
+    "supports_tool_choice": true
+  },
+  "cloud/minimax-m2.1": {
+    "provider": "cloud",
+    "mode": "chat",
+    "input_cost_per_token": 3E-7,
+    "output_cost_per_token": 0.0000012,
+    "max_input_tokens": 204800,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true
   }
 }

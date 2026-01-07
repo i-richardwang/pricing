@@ -351,8 +351,8 @@
     "supports_tool_choice": true,
     "supports_vision": true
   },
-  "opencode-a/minimax-m2.1-free": {
-    "provider": "opencode-a",
+  "opencode/minimax-m2.1-free": {
+    "provider": "opencode",
     "mode": "chat",
     "input_cost_per_token": 3E-7,
     "output_cost_per_token": 0.0000012,

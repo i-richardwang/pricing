@@ -934,6 +934,20 @@
     "supports_response_schema": true,
     "supports_tool_choice": true
   },
+  "openrouter/glm-5.1": {
+    "provider": "openrouter",
+    "mode": "chat",
+    "input_cost_per_token": 1.4e-6,
+    "output_cost_per_token": 4.4e-6,
+    "max_input_tokens": 202752,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "cache_read_input_token_cost": 2.6e-7,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true
+  },
   "antigravity/claude-opus-4-5": {
     "provider": "antigravity",
     "mode": "chat",

@@ -1489,5 +1489,34 @@
     "supports_function_calling": true,
     "supports_tool_choice": true,
     "supports_reasoning": true
+  },
+  "crof/glm-5.1-precision": {
+    "provider": "crof",
+    "mode": "chat",
+    "input_cost_per_token": 0.0000014,
+    "output_cost_per_token": 0.0000044,
+    "max_input_tokens": 202752,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "cache_read_input_token_cost": 2.6E-7,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true
+  },
+  "crof/kimi-k2.6-precision": {
+    "provider": "crof",
+    "mode": "chat",
+    "input_cost_per_token": 9.5E-7,
+    "output_cost_per_token": 0.000004,
+    "max_input_tokens": 262144,
+    "max_output_tokens": 262144,
+    "max_tokens": 262144,
+    "cache_read_input_token_cost": 1.6E-7,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true,
+    "supports_vision": true
   }
 }

@@ -1547,6 +1547,19 @@
     "supports_tool_choice": true,
     "supports_vision": true
   },
+  "zenmux/deepseek-v4-pro": {
+    "provider": "zenmux",
+    "mode": "chat",
+    "input_cost_per_token": 0.00000174,
+    "output_cost_per_token": 0.00000348,
+    "cache_read_input_token_cost": 1.45E-8,
+    "max_input_tokens": 1048576,
+    "max_output_tokens": 384000,
+    "max_tokens": 384000,
+    "supports_function_calling": true,
+    "supports_tool_choice": true,
+    "supports_reasoning": true
+  },
   "wafer/GLM-5.1": {
     "provider": "wafer",
     "mode": "chat",

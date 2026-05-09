@@ -1575,6 +1575,20 @@
     "supports_tool_choice": true,
     "supports_reasoning": true
   },
+  "zenmux/glm-5.1": {
+    "provider": "zenmux",
+    "mode": "chat",
+    "input_cost_per_token": 0.0000014,
+    "output_cost_per_token": 0.0000044,
+    "max_input_tokens": 202752,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "cache_read_input_token_cost": 2.6E-7,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true
+  },
   "wafer/GLM-5.1": {
     "provider": "wafer",
     "mode": "chat",

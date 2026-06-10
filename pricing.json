@@ -1590,7 +1590,7 @@
     "supports_tool_choice": true,
     "supports_reasoning": true
   },
-  "zenmux/glm-5.1": {
+  "zenmux/z-ai/glm-5.1": {
     "provider": "zenmux",
     "mode": "chat",
     "input_cost_per_token": 0.0000014,

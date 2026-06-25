@@ -1558,7 +1558,7 @@
     "supports_tool_choice": true,
     "supports_reasoning": true
   },
-  "zenmux/kimi-k2.7-code": {
+  "zenmux/moonshotai/kimi-k2.7-code": {
     "provider": "zenmux",
     "mode": "chat",
     "input_cost_per_token": 9.5E-7,

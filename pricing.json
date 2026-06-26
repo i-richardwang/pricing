@@ -1632,7 +1632,7 @@
     "supports_tool_choice": true,
     "supports_vision": true
   },
-  "zenmux/deepseek-v4-pro": {
+  "zenmux/deepseek/deepseek-v4-pro": {
     "provider": "zenmux",
     "mode": "chat",
     "input_cost_per_token": 4.35E-7,

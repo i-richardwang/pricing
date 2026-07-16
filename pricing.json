@@ -1748,6 +1748,21 @@
     "supports_response_schema": true,
     "supports_tool_choice": true
   },
+  "umans/umans-deepseek-v4-pro-dspark": {
+    "provider": "umans",
+    "mode": "chat",
+    "input_cost_per_token": 4.35E-7,
+    "output_cost_per_token": 8.7E-7,
+    "cache_read_input_token_cost": 3.625E-9,
+    "max_input_tokens": 393216,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
+    "supports_function_calling": true,
+    "supports_reasoning": true,
+    "supports_response_schema": true,
+    "supports_tool_choice": true,
+    "supports_vision": false
+  },
   "wafer/GLM-5.1": {
     "provider": "wafer",
     "mode": "chat",
